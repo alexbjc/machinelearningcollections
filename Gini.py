@@ -1,5 +1,5 @@
 from collectins import Counter
-def Gini(features):
+def gini(features):
   ret = 1.0
   counters = Counter(features)
   for num in counters.values():
